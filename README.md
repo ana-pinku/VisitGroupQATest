@@ -32,7 +32,7 @@ VisitGroupQATest
 ## Installation and Setup
 1. **Clone the Repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/ana-pinku/VisitGroupQATest.git
    cd VisitGroupQATest
    ```
 
