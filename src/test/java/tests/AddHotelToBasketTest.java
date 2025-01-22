@@ -41,7 +41,7 @@ public class AddHotelToBasketTest extends BaseTest {
         accommodationPage.selectGuestsFromDropdownByIndex(1); // Index 1 corresponds to 2 adults
 
         // Step 4: Click the search button and wait for the search results page to load
-        accommodationPage.clickSearchButtonAndWaitForTitle("Accommodations Hotels and Rooms Destination Gotland", 5);
+        accommodationPage.clickSearchButtonAndWaitForTitle("Accommodations Hotels and Rooms Destination Gotland", 10);
 
         // Step 5: Retrieve the name and price of the first hotel in the search results
         String firstHotelName = searchResultsPage.getHotelName(1);

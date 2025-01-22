@@ -41,7 +41,7 @@ public class SearchResultsPage extends BasePage {
 
     public void clickBookButtonAndWaitForTitle(int index, String expectedTitle) {
         click(getBookButtonLocator(index));
-        WaitUtils.waitForTitleToBe(driver, expectedTitle, 5);
+        WaitUtils.waitForTitleToBe(driver, expectedTitle, 10);
     }
 }
 
